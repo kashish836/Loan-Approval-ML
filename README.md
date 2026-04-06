@@ -54,7 +54,7 @@ Loan-Approval-ML/
 ## ▶️ How to Run
 
 ```bash
-git clone https://github.com/your-username/Loan-Approval-ML.git
+git clone https://github.com/kashish836/Loan-Approval-ML.git
 cd Loan-Approval-ML/app
 streamlit run app.py
 ```
