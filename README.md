@@ -23,11 +23,11 @@ An end-to-end Machine Learning project that predicts whether a loan will be appr
 
 ## 🖥️ App Preview
 
-(app1.png)
+![Details filling page](app1.png)
 
-(app2.png)
+![Details filling page2](app2.png)
 
-(app3.png)
+![Prediction (output)](app3.png)
 
 ---
 ## 🌍 Live Demo
