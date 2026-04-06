@@ -65,4 +65,4 @@ This project helped me understand the complete ML lifecycle — from data prepro
 
 ## 🔗 GitHub Repo
 
-(Add your link here)
+🔗 GitHub Repo: [Loan Approval ML Project](https://github.com/kashish836/Loan-Approval-ML)
