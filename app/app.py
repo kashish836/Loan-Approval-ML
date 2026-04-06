@@ -3,9 +3,22 @@ import numpy as np
 import pickle
 
 # Load model and scaler
-model = pickle.load(open('../models/loan_model.pkl', 'rb'))
-scaler = pickle.load(open('../models/scaler.pkl', 'rb'))
+import os
+import pickle
 
+# Get current file directory
+current_dir = os.path.dirname(__file__)
+
+# Go to parent directory (project root)
+parent_dir = os.path.abspath(os.path.join(current_dir, ".."))
+
+# Create correct paths
+model_path = os.path.join(parent_dir, "models", "loan_model.pkl")
+scaler_path = os.path.join(parent_dir, "models", "scaler.pkl")
+
+# Load files
+model = pickle.load(open(model_path, "rb"))
+scaler = pickle.load(open(scaler_path, "rb"))
 # Page config
 st.set_page_config(page_title="Loan Predictor", page_icon="💰", layout="centered")
 
