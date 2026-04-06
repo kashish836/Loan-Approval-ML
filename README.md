@@ -1,2 +1,68 @@
-# Loan-Approval-ML
-End-to-end Machine Learning project to predict loan approval using real-world data, including EDA, feature engineering, and model building.
+# 💰 Loan Approval Prediction App
+
+An end-to-end Machine Learning project that predicts whether a loan will be approved or not based on user inputs.
+
+---
+
+## 🚀 Features
+
+* Data Cleaning & Preprocessing
+* Handling Missing Values
+* Feature Encoding & Scaling
+* Model Training (Logistic Regression & Random Forest)
+* Interactive Web App using Streamlit
+
+---
+
+## 📊 Model Performance
+
+* Best Model: Logistic Regression
+* Accuracy: ~79%
+
+---
+
+## 🖥️ App Preview
+
+(Add screenshot here)
+
+---
+
+## 🛠 Tech Stack
+
+* Python
+* Pandas
+* Scikit-learn
+* Streamlit
+
+---
+
+## 📂 Project Structure
+
+Loan-Approval-ML/
+│── data/
+│── models/
+│── notebooks/
+│── app/
+│── README.md
+
+---
+
+## ▶️ How to Run
+
+```bash
+git clone https://github.com/your-username/Loan-Approval-ML.git
+cd Loan-Approval-ML/app
+streamlit run app.py
+```
+
+---
+
+## 💡 Learnings
+
+This project helped me understand the complete ML lifecycle — from data preprocessing to deployment.
+
+---
+
+## 🔗 GitHub Repo
+
+(Add your link here)
