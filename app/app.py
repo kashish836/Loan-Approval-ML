@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load model and scaler
-model = pickle.load(open('C:/Users/ASUS/Loan-Approval-ML/models/loan_model.pkl', 'rb'))
-scaler = pickle.load(open('C:/Users/ASUS/Loan-Approval-ML/models/scaler.pkl', 'rb'))
+model = pickle.load(open('../models/loan_model.pkl', 'rb'))
+scaler = pickle.load(open('../models/scaler.pkl', 'rb'))
 
 # Page config
 st.set_page_config(page_title="Loan Predictor", page_icon="💰", layout="centered")
