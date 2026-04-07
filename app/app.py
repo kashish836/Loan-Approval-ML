@@ -82,12 +82,31 @@ else:
     property_area = 0
 
 if st.button("🚀 Predict Loan Status"):
+# 🚫 Validation
+if app_income <= 0:
+    st.error("Income must be greater than 0")
+    st.stop()
+
+# ✨ Feature Engineering
+total_income = app_income + coapp_income
+emi = loan_amount / loan_term if loan_term != 0 else 0
+income_loan_ratio = total_income / loan_amount if loan_amount != 0 else 0
     
     st.write("Button clicked ✅")
 
-    input_data = np.array([[gender, married, dependents, education, self_employed,
-                            app_income, coapp_income, loan_amount, loan_term,
-                            credit_history, property_area]])
+   input_data = np.array([[
+    gender,
+    married,
+    dependents,
+    education,
+    self_employed,
+    total_income,          # ✅ NEW
+    emi,                   # ✅ NEW
+    income_loan_ratio,     # ✅ NEW
+    loan_term,
+    credit_history,
+    property_area
+]])
 
     st.write("Input Data:", input_data)
 
